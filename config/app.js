@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-    port: 3000,
+    port: 8080,
     database: {
         host: 'localhost',
         port: 0,
