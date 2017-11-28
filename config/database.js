@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 var db = function () {
     return {
         config: function (conf) {
+            mongoose.Promise = global.Promise;
             mongoose.connect('mongodb://quydx:Gbmktzqh1@@35.160.228.57:27017/blog');
             console.log(conf);
             var db = mongoose.connection;
