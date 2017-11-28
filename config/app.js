@@ -2,10 +2,10 @@
 'use strict';
 
 module.exports = {
-    port: 27017,
+    port: 80,
     database: {
         host: '35.160.228.57',
-        port: 0,
+        port: 27017,
         dbname: 'blog',
         username: 'quydx',
         password: 'Gbmktzqh1@'
