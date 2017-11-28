@@ -4,11 +4,11 @@
 module.exports = {
     port: 8080,
     database: {
-        host: 'localhost',
+        host: '35.160.228.57',
         port: 0,
         dbname: 'blog',
-        username: 'root',
-        password: 1234
+        username: 'quydx',
+        password: 'Gbmktzqh1@'
     },
     dir: {
         root: __dirname.replace('config', ''),

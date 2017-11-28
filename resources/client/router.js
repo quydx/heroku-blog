@@ -1,6 +1,4 @@
-/**
- * Created by Vu Tien Dinh on 1/4/2017.
- */
+
 'use strict';
 
 app.config(function($urlRouterProvider, $stateProvider) {
@@ -41,7 +39,6 @@ app.config(function($urlRouterProvider, $stateProvider) {
     $stateProvider.state(homeState);
     $stateProvider.state(aboutState);
     $stateProvider.state(contactState);
-
     $stateProvider.state(viewState);
     $stateProvider.state(tagState);
 });

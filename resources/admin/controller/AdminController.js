@@ -1,6 +1,4 @@
-/**
- * Created by Vu Tien Dinh on 1/4/2017.
- */
+
 app.controller('AdminController', function ($scope, $rootScope, $stateParams, $http, AdminService, AuthenticationService, $cookies) {
     $rootScope.title = 'demo mean';
 
