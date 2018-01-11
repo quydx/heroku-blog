@@ -21,7 +21,7 @@ var config = require('./config/app');
 var database = require('./config/database');
 
 //config
-// database.config(config.database);
+ database.config(config.database);
 app.use('/publics/', express.static(config.dir.resources));
 
 var loader = require('./core/loader')(config);
